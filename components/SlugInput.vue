@@ -2,7 +2,7 @@
   <div class="flex flex-col gap-1 w-fit">
     <label class="font-medium text-xs text-slate-500">URL</label>
     <div class="bg-slate-100 border-none rounded-md px-4 py-3 text-sm flex">
-      <p class="text-slate-400">http://localhost:3000/</p>
+      <p class="text-slate-400">http://localhost:3000/users/</p>
       <div class="relative">
         <label for="" class="w-full px-1 pointer-events-none">{{ slug }}</label>
         <input
@@ -14,7 +14,7 @@
           v-model="slug"
         />
       </div>
-      <p class="text-slate-400">/your-album-name</p>
+      <p class="text-slate-400">/manage</p>
     </div>
   </div>
 </template>
